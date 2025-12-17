@@ -189,8 +189,6 @@ def main(args):
             question = [instruction.format(question=question) for question in dataset["problem"]]
             rationale = dataset["solution"]
 
-        print(">>>Data preprocessing complete!")
-
         # 2. Embed data
 
         if args.embed_model == "sentence-transformers/all-MiniLM-L6-v2":
