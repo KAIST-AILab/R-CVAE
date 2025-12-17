@@ -10,8 +10,8 @@ Research of Modeling and Optimizing the Test-time Compute with Conditional Varia
 
 ```plaintext
 .
-├── bash
-├── inference
-├── misc
-├── model
+├── bash # collection of run file
+├── inference # inference python files
+├── misc # analysis
+├── model 
 ├── train
