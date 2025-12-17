@@ -1,3 +1,6 @@
 /log
 /output
 /__pycache__
+
+*.json
+*.pt
