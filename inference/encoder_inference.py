@@ -135,7 +135,7 @@ def main(args):
 
         # 기존 generator, generator_tokenizer는 vllm으로 대체됨
     model_name = args.model
-    # vllm 모델 초기화 (device는 CUDA 또는 CPU)
+
     llm = LLM(model_name, 
               device=device, 
               max_model_len=4096, 
