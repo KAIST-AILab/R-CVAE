@@ -6,8 +6,7 @@ DATA="openai/gsm8k" # "openai/gsm8k", "EleutherAI/hendrycks_math"
 LOG_DATA="gsm"
 
 MODEL="HuggingFaceTB/SmolLM2-1.7B-Instruct" # "HuggingFaceTB/SmolLM2-1.7B-Instruct", "meta-llama/Llama-3.1-8B-Instruct", "Qwen/Qwen2.5-14B-Instruct", "mistralai/Mistral-Small-24B-Instruct-2501"
-LOG_MODEL="smol" # "smol", "llama", "qwen", "mistral"
-
+LOG_MODEL="smol" 
 EMBED_MODEL="jinaai/jina-embeddings-v3" # "jinaai/jina-embeddings-v3" , "sentence-transformers/all-MiniLM-L6-v2"
 
 BATCH_SIZE=2
